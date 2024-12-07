@@ -17,18 +17,18 @@
 # 所需硬件(Hardware Requirements)
 * The PYNQ-Z2 board
 * MicroUSB to USB-A cable
-* OV5640 camera
+* USB camera (免驱动摄像头)
 * PMOD adapter
 * HDMI cable
 * HDMI screen
 
 # 所需软件(Software Requirements)
-* Vivado&reg; Design Suite 2018.2
+* Vivado&reg; Design Suite 2020.2
 * Board files for PYNQ-Z2 should be installed
 
-  Vivado 2018.2默认并不包含PYNQ-Z2的板级支持文件，所以需要将`{path/to/doc}\files\pynq-z2`文件夹拷贝至`{ptah/to/vivado}\2018.2\data\boards\board_file`
-* Xilinx SDK 2018.2
-* Vivado HLS 2018.2
+  Vivado 2020.2默认并不包含PYNQ-Z2的板级支持文件，所以需要将`{path/to/doc}\files\pynq-z2`文件夹拷贝至`{ptah/to/vivado}\2020.2\data\boards\board_file`
+* Xilinx SDK 2020.2
+* Vivado HLS 2020.2
 * HLS Image Processing IP Core
 
 # 注意事项(Note)
@@ -37,13 +37,13 @@
 * {path/to/prj}表示所创建工程根目录
 
 # 硬件连接(Hardware Setup)
-将OV5640 camera接到PMOD adapter上并连接至PYNQ-Z2 board PMODA及PMODB，使用HDMI cable连接PYNQ-Z2 HDMI OUT及HDMI screen，使用MicroUSB to USB-A cable连接PROG UART及电脑USB端口。
+将USB camera接到PMOD adapter上并连接至PYNQ-Z2 board PMODA及PMODB，使用HDMI cable连接PYNQ-Z2 HDMI OUT及HDMI screen，使用MicroUSB to USB-A cable连接PROG UART及电脑USB端口。
 <p align="center">
 <img src ="images\01_system.png" width="75%"/>
 </p>
 
 # 创建工程(Create a Vivado Project)
-1. 单击`Start > Xilinx Design Tools > Vivado 2018.2`打开Vivado。
+1. 单击`Start > Xilinx Design Tools > Vivado 2020.2`打开Vivado。
 <p align="center">
 <img src ="images\01_start_vivado.png" width="50%"/>
 </p>
